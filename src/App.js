@@ -1,6 +1,16 @@
+import React from "react";
+import { BrowserRouter, Routes, Routes } from "react-router-dom";
+
 const App = () => {
-return(
-  <h1>Hello React</h1>
-)
-}
+  return (
+    <BrowserRouter>
+      <Routes>
+        <Route path="/" element={}>
+
+        </Route>
+      </Routes>
+    </BrowserRouter>
+  );
+};
+
 export default App;
